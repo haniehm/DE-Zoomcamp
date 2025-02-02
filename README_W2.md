@@ -18,6 +18,7 @@ This repository contains a Kestra workflow for loading NYC taxi data into Postgr
 ## Q&A Section
 
 ### Q1: What is the purpose of this workflow?
+(I ran 02_postgres_taxi with no-purge configuration. It resulted in 128.3 MB file)
 This workflow:
 1. Downloads specified taxi data from public GitHub releases
 2. Creates/maintains staging and final tables in PostgreSQL
@@ -79,12 +80,3 @@ triggers:
 > Kestra docs: [Schedule Triggers](https://kestra.io/docs/workflow-components/triggers/schedule-trigger)
 ```
 
-This format provides:
-1. Clear section organization
-2. Syntax-highlighted code blocks
-3. Easy-to-read Q&A format
-4. Important information highlighted
-5. Links to relevant documentation
-6. Visual hierarchy through headers and subheaders
-
-You can copy this directly into a README.md file in your repository.
